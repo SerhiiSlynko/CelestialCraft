@@ -1,0 +1,125 @@
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $orange;
+    color: $orange;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: $fonts-gilroy-regular;
+    line-height: 22px;
+    width: 200px;
+    height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+
+    @media screen and (max-width: $bp-tablet-s) {
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    @media screen and (max-width: $bp-tablet-sm) {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+    }
+    
+}
+
+.btn--small{
+    width: 150px;
+    height: 44px;
+
+    @media screen and (max-width: $bp-tablet-s) {
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    @media screen and (max-width: $bp-tablet-sm) {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+    }
+    
+
+}
+.btn--filled-orange{
+    background-color: $orange;
+    color:$white;
+    @media screen and (max-width: $bp-tablet-s) {
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    @media screen and (max-width: $bp-tablet-sm) {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+    }
+ }
+.btn--black{
+ background-color: $black;
+ color: $white;
+
+ @media screen and (max-width: $bp-tablet-s) {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: $bp-tablet-sm) {
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: $bp-mobile) {
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+}
+
+}
+.btn--transparent{
+    background-color: $orange;
+    border: 1px solid $black;
+    color: $black;
+    @media screen and (max-width: $bp-tablet-s) {
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    @media screen and (max-width: $bp-tablet-sm) {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+    }
+}

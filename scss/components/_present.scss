@@ -1,0 +1,55 @@
+.present {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        padding: 96px 135px;
+      
+        @media screen and (max-width: $bp-tablet-s) {
+           padding: 96px 0;
+        }
+     }
+
+    &__title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        font-family: $fonts-gilroy-regular;
+        line-height:100%;
+        vertical-align: top;
+        gap: 23px;
+        padding-top: 96px;
+        padding-bottom: 23px;
+        color: $black;
+
+
+        
+         @media screen and (max-width: $bp-tablet-sm) {
+            font-size: 30px;
+         }
+ 
+         @media screen and (max-width: $bp-mobile) {
+            font-size: 28px;
+         }
+    }
+    &__text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        font-family: $fonts-gilroy-regular;
+        line-height: 136%;
+        color: $black;
+        padding-bottom: 64px;
+        
+
+    }
+
+}

@@ -1,0 +1,28 @@
+.menu{
+    display: flex;
+
+    @media screen and (max-width: $bp-tablet) {
+        display: none;
+    }
+
+
+        &__link{
+            font-family: $fonts-gilroy-regular;
+            padding: 15px;
+            font-size: 18px;
+            line-height: 22px;
+            color: $black;
+        }
+
+        
+        &__link-footer{
+            font-family: $fonts-gilroy-bold;
+            font-size: 14px;
+            line-height: 140%;
+            color: $black;
+        }
+    
+}
+
+
+

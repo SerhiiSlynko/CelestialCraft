@@ -1,0 +1,97 @@
+.order{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+   
+        background-color: $orange;
+
+        &__content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        }
+
+
+       &__title {
+        font-family: $fonts-gilroy-bold;
+        font-size: 32px;
+        line-height: 45px;
+        align-items: left;
+        vertical-align: top;
+        color: $black;
+        padding-left: 235px;
+        padding-top: 80px;
+
+        @media screen and (max-width: $bp-tablet-s) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-left: 0;
+                padding-top: 0;
+                font-size: 25px;
+             }
+     
+             @media screen and (max-width: $bp-tablet-sm) {
+                font-size: 20px;
+             }
+     
+             @media screen and (max-width: $bp-mobile) {
+                font-size: 16px;;
+             }
+       }
+
+
+       &__text{
+        font-family:$fonts-gilroy-regular ;
+        font-size: 32px;
+        line-height: 45px;
+        align-items: left;
+        vertical-align: top;
+        color: $black;
+        padding-left: 235px;
+
+        @media screen and (max-width: $bp-tablet-s) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-left: 0;
+
+                font-size: 25px;
+             }
+     
+             @media screen and (max-width: $bp-tablet-sm) {
+                font-size: 20px;
+             }
+     
+             @media screen and (max-width: $bp-mobile) {
+                font-size: 16px;
+             }
+        
+      
+
+       }
+      &__button{
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+        padding-left: 789px;
+        gap: 16px;
+
+        @media screen and (max-width: $bp-tablet) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-left: 0;
+                gap: 12px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                
+             }
+       }
+
+    }
